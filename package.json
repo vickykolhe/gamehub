@@ -1,0 +1,30 @@
+{
+    "name": "simple-snake",
+    "version": "1.0.0",
+    "description": "Simple-Snake game created by @dnm17_",
+    "main": "index.js",
+    "homepage": "https://github.com/dfsdanimaulana/simple-snake",
+    "scripts": {
+        "dev": "webpack --mode development --watch",
+        "server": "npx live-server --host=dnm.firebase.test.com",
+        "start": "npm-run-all --parallel dev server",
+        "build": "webpack --mode production",
+        "build2": "node ./node_modules/webpack/bin/webpack.js"
+    },
+    "keywords": [],
+    "author": "dfsdanimaulana <danimaulana9f@gmail.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-loader": "^9.1.2",
+        "mini-css-extract-plugin": "^2.7.6",
+        "npm-run-all": "^4.1.5",
+        "terser-webpack-plugin": "^5.3.9",
+        "webpack": "^5.66.0",
+        "webpack-cli": "^4.9.1"
+    },
+    "dependencies": {
+        "date-fns": "^2.28.0",
+        "firebase": "^9.6.3",
+        "sweetalert2": "^11.7.12"
+    }
+}
