@@ -15,6 +15,7 @@
     "author": "dfsdanimaulana <danimaulana9f@gmail.com>",
     "license": "ISC",
     "devDependencies": {
+        "@babel/core": "^7.23.9",
         "babel-loader": "^9.1.2",
         "mini-css-extract-plugin": "^2.7.6",
         "npm-run-all": "^4.1.5",
